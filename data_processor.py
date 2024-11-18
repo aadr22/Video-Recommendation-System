@@ -21,7 +21,7 @@ logging.basicConfig(
 # API Configuration
 BASE_URL = "https://api.socialverseapp.com"
 HEADERS = {
-    "Flic-Token": "flic_b9c73e760ec8eae0b7468e7916e8a50a8a60ea7e862c32be44927f5a5ca69867"
+    "Flic-Token": "flic_4ae0f84e6f01e7198afd37a5c68734dc3884221c140e2ac6bcb0880b8af885a5"
 }
 
 def fetch_data(endpoint: str) -> dict | None:
