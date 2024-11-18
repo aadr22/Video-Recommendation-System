@@ -15,7 +15,7 @@ class NumpyEncoder(json.JSONEncoder):
             return obj.item() if isinstance(obj, (np.integer, np.floating)) else obj.tolist()
         return super().default(obj)
 
-# Class to calculate recommendation metrics like CTR and MAP
+# Class to calculate recommendation metrics like Precision and Recall
 class RecommendationMetrics:
     def __init__(self):
         self._setup_logging()
